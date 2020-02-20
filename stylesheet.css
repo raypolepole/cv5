@@ -1,0 +1,84 @@
+html,body{margin:0; padding:0}
+body{
+    background-color: white;
+    font-family: sans-serif;
+    
+}
+.gauche{
+    display: inline-block;
+    width: 35%;
+    border:5px solid white;
+    float: left;
+    background-color:#2e373c ;
+    margin-left: 0.5cm;
+}
+.table{
+    border:3px solid black;
+}
+.droite{
+    background-image: url("droite.png") no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+    width: 60%;
+    border: 5px solid white;    
+}
+.photo{
+    border-radius: 50%;
+    width: 250px;
+    border:5px solid white;
+    display: inline-block;
+    margin-left:1cm ;
+    margin-top:0.5cm;
+}
+.contact{
+    display: inline-block;
+    width: 60%;
+    color: blanchedalmond;
+    border: 3px solid white;
+    margin-left: 1cm;
+    margin-bottom: 0.5cm;
+}
+.text{
+    font-size: 22px;
+    margin-left: 1cm;
+    margin-top: 0;
+    color: white
+
+}
+.png{
+    border-radius: 50%;
+    width:70px;
+    margin-left: 3.2cm;
+}
+.boule{
+    display:inline-block;
+    list-style-type: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    background-color:white;
+    border:1px solid white;
+}
+.vide{
+    background-color: transparent;
+}
+.profil{
+    margin-left: 1cm;
+}
+.liste{
+    margin-left: 5px;
+}
+@media screen and (max-width:640px){
+    .gauche{
+        width:100%;
+        text-align: center;
+    }
+    .photo{
+        margin:0 auto;
+    }
+    .droite{
+        width:100%;
+    }
+
+}
